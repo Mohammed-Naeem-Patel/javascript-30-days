@@ -20,7 +20,7 @@ let inter=setInterval(
 
 // Stop counter using button
 
-button=document.getElementById("btn");
+const button=document.getElementById("btn");
 
 button.addEventListener("click",
     function ()
