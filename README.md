@@ -11,6 +11,10 @@ This repository documents my structured 30-day JavaScript learning journey, focu
 - Project planning and implementation
 - Git & GitHub basics
 
+## 🧱 Foundation Phase (Day 1–12)
+
+During the first phase of this challenge, I focused on building strong JavaScript fundamentals through daily practice, including conditions, loops, functions, arrays, objects, and basic DOM manipulation.
+
 ## 🧠 Project Planning & Cleanup
 
 On Day 20, I carefully planned my major projects (Weather Search App and Movie Search App).  
