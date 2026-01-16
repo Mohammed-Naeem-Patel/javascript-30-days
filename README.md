@@ -11,14 +11,12 @@ This repository documents my structured 30-day JavaScript learning journey, focu
 - Project planning and implementation
 - Git & GitHub basics
 
-## 🧠 Project Planning (Day 20)
-Before building projects, I dedicated a full day to planning and architecture.  
-During this phase, I:
-- Selected a **main project** (Weather Search App) to build with full focus
-- Identified a **secondary practice project** (Movie Search App) to reinforce the same concepts
-- Defined user flow, features, possible errors, and JavaScript concepts in advance
+## 🧠 Project Planning & Cleanup
 
-This planning step helped me write cleaner code, avoid confusion, and build projects more confidently.
+On Day 20, I carefully planned my major projects (Weather Search App and Movie Search App).  
+This planning established user flow, features, and error handling before coding.
+
+On Day 22, I cleaned up the repository, improved structure, updated documentation, and made the repo more professional and recruiter-friendly.
 
 ## 🚀 Projects Built
 
