@@ -47,3 +47,5 @@ On Day 22, I cleaned up the repository, improved structure, updated documentatio
 
 ## 📅 Status
 Ongoing (Day 22 / 30)
+
+Improve README with planning and cleanup details
