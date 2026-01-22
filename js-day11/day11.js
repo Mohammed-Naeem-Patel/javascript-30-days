@@ -21,26 +21,26 @@ If empty → show message
 Else → add task to list*/
 
 
-    let tasks=[];
+let tasks=[]; //this stores the all tasks 
             
-const button=document.getElementById("add");
+const button=document.getElementById("add"); 
 
     button.addEventListener("click",
-        function btn(event)
+        function btn(event) 
         {
-            event.preventDefault();
+            event.preventDefault(); //stops crashing
             
-            let task=document.getElementById("taskinput").value;
+            let task=document.getElementById("taskinput").value; //store the input in a variable name task
 
             if(task==="")
             {
-                alert("Please enter a task!");
-                return;
+                alert("Please enter a task!"); //prints on alert 
+                return; //return if fails
             }
 
-            tasks.push(task);
-            displayTasks();
-            document.getElementById("tasklist").value="";
+            tasks.push(task); //store new task in array for persistent display
+            displayTasks();   //calling function
+            document.getElementById("taskinput").value="";
         });
 
             /*STEP 3: DISPLAY TASKS (IMPORTANT)
@@ -52,7 +52,7 @@ const button=document.getElementById("add");
 
         function displayTasks()
         {
-            let list=document.getElementById("tasklist");
+            let list=document.getElementById("tasklist"); //making a variable and taking tasks for making list
             list.innerHTML="";
 
             for(let i=0; i<tasks.length; i++)
@@ -61,7 +61,7 @@ const button=document.getElementById("add");
                 ${tasks[i]}
                 <button onclick="deleteTask(${i})">Delete</button>
                 </li>
-                `;
+                `;  //this prints the tasklist with button at a place of list
             }
         }
 
@@ -79,6 +79,6 @@ const button=document.getElementById("add");
 
         function deleteTask(index)
         {
-            tasks.splice(index, 1);
+            tasks.splice(index, 1); //remove tasks from a list
             displayTasks();
         }

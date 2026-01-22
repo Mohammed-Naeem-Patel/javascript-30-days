@@ -1,5 +1,5 @@
 /* day 16
-Project: Map,Filter,Reduce Methods
+Title: Map,Filter,Reduce Methods
 Description: Practice of higher order elements of array
 Author:Mohammed Naeem Patel*/
 
@@ -12,36 +12,36 @@ let nums = [1, 2, 3, 4, 5];
 Output:
 [1, 4, 9, 16, 25]*/
 
-let arr1=[1,2,3,4,5];
+let nums=[1,2,3,4,5];
 
-let a1=arr1.map((num)=>{
-    return num*num;
+let numsofsq=nums.map((nums)=>{
+    return nums*nums; //Gives the square of all numbers
 });
 
-console.log(a1);
+console.log(numsofsq); //This prints the square of all numbers in console
 
 /*Task 2: Convert names to uppercase
 let names = ["naeem", "ali", "ahmed"];*/
 
-let arr2=["naeem","ali","ahmed"];
+let names=["naeem","ali","ahmed"];
 
-let a2=arr2.map((name)=>{
-    return name.toUpperCase();
+let namesup=names.map((names)=>{
+    return names.toUpperCase(); //Converts the name into uppercase
 });
 
-console.log(a2);
+console.log(namesup); //This prints the all names into uppercase in console
 
 
 /*Task 3: Add ₹100 bonus to salaries
 let salaries = [1000, 2000, 3000];*/
 
-let arr3=[1000,2000,3000];
+let sal=[1000,2000,3000];
 
-let a3=arr3.map((salary)=>{
-    return salary+100;
+let upsal=sal.map((salary)=>{
+    return salary+100;  //Adding 100₹ in salaries
 });
 
-console.log(a3);
+console.log(upsal); //This prints the updated salaries with adding 100₹ in console
 
 
 //PART 2: filter() (SELECT DATA)
@@ -49,40 +49,40 @@ console.log(a3);
 /*Task 4: Get even numbers
 let nums = [1, 2, 3, 4, 5, 6];*/
 
-let arr4=[1,2,3,4,5];
+let nums2=[1,2,3,4,5,6];
 
-let a4=arr4.filter((num)=>{
+let evenums=nums2.filter((num)=>{
     if(num%2===0)
     {
-        return num;
+        return num; //Checks the even numbers and give them
     }
 });
 
-console.log(a4);
+console.log(evenums); //This prints only the even numbers from an array in console
 
 
 /*Task 5: Get students who passed (marks ≥ 35)
 let marks = [23, 45, 60, 12, 90, 35];*/
 
-let arr5=[23,45,60,12,90,35];
+let marks=[23,45,60,12,90,35];
 
-let a5=arr5.filter((marks)=>{
-    return marks>=35;
+let passedStudents=marks.filter((marks)=>{
+    return marks>=35;  //Gives the passed students marks or give marks>=35
 });
 
-console.log(a5);
+console.log(passedStudents); //This prints only the passed students marks in console
 
 
 /*Task 6: Get names longer than 4 characters
 let names = ["Ali", "Naeem", "Ahmed", "Usman"];*/
 
-let arr6=["Ali","Naeem","Ahmed","Usman"];
+let names2=["Ali","Naeem","Ahmed","Usman"];
 
-let a6=arr6.filter((name)=>{
-    return name.length>4;
+let bignames=names2.filter((name)=>{
+    return name.length>4;  //Gives longer names than 4 characters
 });
 
-console.log(a6);
+console.log(bignames); //This prints only the names which are greater than 4 characters in console
 
 
 //PART 3: reduce() (CALCULATE)
@@ -90,37 +90,37 @@ console.log(a6);
 /*Task 7: Sum of all numbers
 let nums = [10, 20, 30, 40];*/
 
-let arr7=[10,20,30,40];
+let nums3=[10,20,30,40];
 
-let a7=arr7.reduce((num1,num2)=>{
-    return num1+num2;
+let sum_of_nums=nums3.reduce((num1,num2)=>{
+    return num1+num2;  //Calculates the sum of all numbers in an array name nums3
 });
 
-console.log(a7);
+console.log(sum_of_nums); //This prints the sum of all numbers in console
 
 
 /*Task 8: Find maximum number
 let nums = [5, 18, 2, 50, 1];*/
 
-let arr8=[5,18,2,50,1];
+let nums4=[5,18,2,50,1];
 
-let a8=arr8.reduce((acc,currval)=>{
-    return Math.max(acc,currval);
+let maxi_num=nums4.reduce((acc,currval)=>{
+    return Math.max(acc,currval);  //Gives the maximum number from an array
 },0);
 
-console.log(a8);
+console.log(maxi_num); //This prints the maximum number from an array in console
 
 
 /*Task 9: Total marks of a student
 let marks = [80, 75, 90];*/
 
-let arr9=[80,75,90];
+let marks2=[80,75,90];
 
-let a9=arr9.reduce((num1,num2)=>{
-    return num1+num2;
+let total_marks=marks2.reduce((num1,num2)=>{
+    return num1+num2;  //Calculate the total marks
 });
 
-console.log(a9);
+console.log(total_marks); //This prints the total marks in console
 
 
 //PART 4: REAL-LIFE COMBO (IMPORTANT)
@@ -132,18 +132,17 @@ Filter passed students (marks ≥ 35)
 Extract marks
 Calculate total marks*/
 
-let students = [
+let students = 
+[
   { name: "Ali", marks: 30 },
   { name: "Naeem", marks: 80 },
   { name: "Ahmed", marks: 50 },
   { name: "Usman", marks: 20 }
 ];
 
-let s1=students
-       .filter(value => value.marks >= 35)     
-       .map(value => value.marks)
-       .reduce((acc,marks) => acc+marks,0);
+let updated_data=students
+       .filter(value => value.marks >= 35)    //This is filtering passed studensts 
+       .map(value => value.marks)             //This extracts marks of students
+       .reduce((acc,marks) => acc+marks,0);   //This calculates the total marks 
 
-    console.log(s1);
-
-    
+    console.log(updated_data);                //This prints the data in console
