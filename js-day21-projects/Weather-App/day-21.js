@@ -23,7 +23,7 @@ btn.addEventListener("click", async ()=>{
 
     try 
     {
-        let apiKey = "dd214000daf1b34ebc5126ee65dbb857";
+        let apiKey = "a85ad66ef9ac24fa96704dc620019d22";
         let url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${apiKey}`;
     
         let response = await fetch(url);
