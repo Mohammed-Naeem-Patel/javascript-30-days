@@ -17,12 +17,35 @@ This repository documents my structured 30-day JavaScript learning journey, focu
 ---
 
 ## 🧱 Foundation Phase (Day 1–12)
+- JavaScript basics (conditions, loops, functions)
+- Arrays, objects, and basic DOM
 
-Built strong core concepts including:
-- Conditions & loops
-- Functions & arrays
-- Objects and basic DOM manipulation
+---
 
+## ⚙️ Intermediate Phase (Day 13–19)
+- LocalStorage usage
+- Digital clock project
+- JSON handling
+- Fetch API basics
+- Async/Await with error handling
+- Input validation
+
+---
+
+## 🚀 Project Phase (Day 20–25)
+- Planned and built real-world projects
+- Weather App (API + async/await)
+- Movie Search App (API practice)
+- To-Do App (DOM + logic)
+
+---
+
+## 🧠 Improvement Phase (Day 26–30)
+- Code refactoring
+- Logic improvement
+- DOM practice challenges
+- Debugging real-world issues
+- GitHub cleanup and documentation
 ---
 
 ## 🚀 Projects Built
