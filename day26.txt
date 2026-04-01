@@ -1,0 +1,53 @@
+Task 1
+
+1.What is JavaScript?
+Ans] With the help of JavaScript we can interact with web pages. Ex: if our skeleton is html, our skin is css than our mind is JavaScript.
+
+2.Difference between var, let and const.
+Ans] var is the oldest method right now actually var is used in old times in JavaScript we can access easily var in a program if var is initialize any where in that program, let is used in modern JavaScript we can't access let in every where in program like var cause let has different rules like if we initialize let in a block than let's range also finish with that block's range, const for const we can't change the value of const after initializing once we can change the value of var also let but not const so we can used const if we know the value isn't change in future.
+
+3.What is an array? Why do we use it?
+Ans] Arrays are collection of data we can store the data in an array and access the elements by indexing. we use arrays in our programs cause it is stores the data and we can access the data elements using by indexing with ease and fast.
+
+4.What is an object
+Ans] Object is a thing which stores the data and we can see and read them too and if we know little much programming than maybe we can understand what data stores that objects.
+
+5.Difference between == and ===.
+Ans] == checks the values of both sides but === checks the type too. Ex: a=5,b="5" a==b ans=true but a===b ans=false for first one ans becomes true cause both sides values are same but for second one ans becomes false cause the a store int data type values when b store string data type value.
+
+6.What is function?
+Ans] With the help of function we can save our time. Actually function is a thing which is helps us to do less coding and better and good output fast.
+
+7.What is event?
+Ans] event is a thing which listens the things and giving  the response of that thing there are several events in JavaScript.
+
+8.What is DOM?
+Ans] Full form of DOM is Document Object Model with the help of DOM we can easily use JavaScript and we can also changes the css and html actually DOM allows us to use html and css too with the help of DOM.
+
+Task 2
+
+To-DO App
+
+1-i learn how to handle validations, how to store and show the data on screen, how to erase and stop showing same data on screen, how to disable button when input is empty, how to show the total tasks.
+
+2&3-i used HTML for structuring and JavaScript language for putting logic in HTML simply i connect JavaScript and make a input field and a button and in JavaScript first of all i connect the button and making the button working and i write the logic of handling empty filed, showing data on screen, stops the showing same data on screen, deleting logic and counting logic.
+
+4-Actually this is my first project with JavaScript which i made with proper guidance and helping of ai (Chatgpt) that's why i feel most of this project hard but still the hardest part i feel which is maybe the showing data on screen.
+
+5-wiht the help of ai (Chatgpt) but now blindly copy paste i understood the logic and doing after that.
+
+Task 3
+
+1-First of all i check my connected file name and extension and in html code i write correct or not and after that i see on other browser and i try to write a small code in console like console.log("Hello")
+
+2-Maybe we doesn't write code correctly like we mistake or forgot to write innerText or somthing like that.
+
+3-event.prevenDeafult() so much useful and matters in form cause it stops the crashing websites.
+
+4-we use array cause it stores the much data at a time not like a variable which can store only one data.
+
+Task 4
+
+1-Maybe DOM and foundation
+2-Asyncs and Await and not perfectly know but maybe overall newest things like after day 12 or 15.
+
